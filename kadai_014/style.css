@@ -1,5 +1,5 @@
 /* フォント指定body範囲の */
-body{
+html {
     font-family: "Arial","Meiryo", sans-serif;
     font-size: 20px;
 }
@@ -10,7 +10,7 @@ h1 {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 40px;
+    font-size: 2rem;
 }
     /* Mのみ青色にする */
 h1 span.m{
@@ -20,7 +20,7 @@ h1 span.m{
 h1 span.p{
     color: rgb(255,192,203);
 }
-  
+/*  */
 .pink{
     color: rgb(255,192,203);
 }
@@ -36,6 +36,6 @@ h1{
     text-shadow: 1px 1px 2px yellow;
     text-decoration: underline 3px rgb(115,115,114);
 }
-#basic{
+#basic p {
     font-weight: bold;
 }
